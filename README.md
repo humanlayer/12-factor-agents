@@ -60,7 +60,7 @@ let's talk about how we got here
 
 ### 60 years ago
 
-We're gonna talk alot about Directed Graphs (DGs) and their Acyclic friends, DAGs. I'll start by pointing out that...well...software is a directed graph. There's a reason we used to represent programs as flow charts.
+We're gonna talk a lot about Directed Graphs (DGs) and their Acyclic friends, DAGs. I'll start by pointing out that...well...software is a directed graph. There's a reason we used to represent programs as flow charts.
 
 ![010-software-dag](./img/010-software-dag.png)
 
@@ -176,7 +176,7 @@ This example is based on a real life [OSS agent we've shipped to manage our depl
 ![035-deploybot-conversation](./img/035-deploybot-conversation.png)
 
 
-We haven't given this agent a huge pile of tools or tasks. The primary value in the LLM is parsing the human's plaintext feedback and proposing an updated course of action. We isolate tasks and contexts as much as possible to keep
+We haven't given this agent a huge pile of tools or tasks. The primary value in the LLM is parsing the human's plaintext feedback and proposing an updated course of action. We isolate tasks and contexts as much as possible to keep SOMETHING IS MISSING HERE.
 
 Here's another [more classic support / chatbot demo](https://x.com/chainlit_io/status/1858613325921480922).
 
@@ -202,15 +202,24 @@ In the "deploybot" example, we gain a couple benefits from owning the control fl
 
 In building HumanLayer, I've talked to at least 100 SaaS builders (mostly technical founders) looking to make their existing product more agentic. The journey usually goes something like:
 
-1. Decide you want to build an agent
-2. Product design, UX mapping, what problems to solve
-3. Want to move fast, so grab $FRAMEWORK and *get to building*
-4. Get to 80-90% quality bar 
-5a. Realize that 90% isn't good enough for most customer-facing features
-5b. Realize that getting past 90% requires reverse-engineering the framework, prompts, flow, etc
-6. Start over from scratch
+<ol>
+  <li>Decide you want to build an agent</li>
+  <li>Product design, UX mapping, what problems to solve</li>
+  <li>Want to move fast, so grab $FRAMEWORK and *get to building*</li>
+  <li>Get to 80-90% quality bar</li>
+  <ul>
+    <li>
+      4a. Realize that 90% isn't good enough for most customer-facing features
+    </li>
+    <li>
+      4b. Realize that getting past 90% requires reverse-engineering the
+      framework, prompts, flow, etc
+    </li>
+  </ul>
+  <li>Start over from scratch</li>
+</ol>
 
-**DISCLAIMER**: I'm not sure the exact right place to say this, but here seems as good as any: **this in BY NO MEANS meant to be a dig on either the many frameworks out there, or the pretty dang smart people who work on them**. They enable incredible things and have accelerated the AI ecosystem. 
+**DISCLAIMER**: I'm not sure the exact right place to say this, but here seems as good a place as any: **this is BY NO MEANS meant to be a dig on either the many frameworks out there, or the pretty dang smart people who work on them**. They enable incredible things and have accelerated the AI ecosystem. 
 
 I hope that one outcome of this post is that agent framework builders can learn from the journeys of myself and others, and make frameworks even better. 
 
@@ -218,13 +227,13 @@ Especially for builders who want to move fast but need deep control.
 
 **DISCLAIMER 2**: I'm not going to talk about MCP. I'm sure you can see where it fits in.
 
-**DISCLAIMER 3**: I'm using mostly typescript, for [reasons](https://www.linkedin.com/posts/dexterihorthy_llms-typescript-aiagents-activity-7290858296679313408-Lh9e?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA4oHTkByAiD-wZjnGsMBUL_JT6nyyhOh30) but all this stuff works in python or any other language you prefer (in fact, that's probably factor 13 if there was one).
+**DISCLAIMER 3**: I'm using mostly TypeScript, for [reasons](https://www.linkedin.com/posts/dexterihorthy_llms-typescript-aiagents-activity-7290858296679313408-Lh9e?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA4oHTkByAiD-wZjnGsMBUL_JT6nyyhOh30) but all this stuff works in Python or any other language you prefer (in fact, that's probably factor 13 if there was one).
 
 Anyways back to the thing...
 
 ### Goals for the rest of this
 
-After digging hundreds of AI libriaries and working with dozens of founders, my instinct is this:
+After digging into hundreds of AI libriaries and working with dozens of founders, my instinct is this:
 
 1. There are some core things that make agents great
 2. Going all in on a framework and building what is essentially a greenfield rewrite may be counter-productive
@@ -279,7 +288,7 @@ to a structured object that describes a Stripe API call like
 }
 ```
 
-**Note**: in reality the stripe API is a bit more complex, a [real agent that does this](https://github.com/dexhorthy/mailcrew) ([video](https://www.youtube.com/watch?v=f_cKnoPC_Oo)) would list customers, list products, list prices, etc to build this payload with the proper ids, or include those ids in the prompt/context window (we'll see below how those are kinda the same thing though!)
+**Note**: In reality the Stripe API is a bit more complex, a [real agent that does this](https://github.com/dexhorthy/mailcrew) ([video](https://www.youtube.com/watch?v=f_cKnoPC_Oo)) would list customers, list products, list prices, etc to build this payload with the proper ids, or include those ids in the prompt/context window (we'll see below how those are kinda the same thing though!)
 
 From there, deterministic code can pick up the payload and do something with it. (More on this in [factor 3](#))
 
@@ -620,7 +629,7 @@ Many frameworks try to separate "execution state" from "business state", creatin
 
 In reality, you can engineer your application so that you can infer all execution state from the context window. In many cases, execution state (current step, waiting status, etc.) is just metadata about what has happened so far.
 
-You may have things that can't going in the context window, like session ids, password contexts, etc, but your goal should be to minimize those things. BY embracing [factor 3](#3-own-your-context-window) you can control what actually goes into the LLM 
+You may have things that can't going in the context window, like session ids, password contexts, etc, but your goal should be to minimize those things. By embracing [factor 3](#3-own-your-context-window) you can control what actually goes into the LLM 
 
 This approach has several benefits:
 
