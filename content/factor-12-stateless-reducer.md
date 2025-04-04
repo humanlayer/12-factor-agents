@@ -1,5 +1,5 @@
 
-### 12. Make your agent a stateless reducer
+### 12. Make your agent a stateless reducer 
 
 Okay so we're over 1000 lines of markdown at this point. This one is mostly just for fun.
 
