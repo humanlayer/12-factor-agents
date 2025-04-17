@@ -6,7 +6,7 @@ Tools don't need to be complex. At their core, they're just structured output fr
 
 ![140-tools-are-just-structured-outputs](https://github.com/humanlayer/12-factor-agents/blob/main/img/140-tools-are-just-structured-outputs.png)
 
-For example, lets say you have two tools `CreateIssue` and `SearchIssues`. To ask an LLM to "use one of serveral tools" is just to ask it to output JSON we can can parse into an object representing those tools.
+For example, lets say you have two tools `CreateIssue` and `SearchIssues`. To ask an LLM to "use one of serveral tools" is just to ask it to output JSON we can parse into an object representing those tools.
 
 ```python
 
