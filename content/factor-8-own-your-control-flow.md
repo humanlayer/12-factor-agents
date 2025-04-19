@@ -9,7 +9,7 @@ If you own your control flow, you can do lots of fun things.
 
 Build your own control structures that make sense for your specific use case. Specifically, certain types of tool calls may be reason to break out of the loop and wait for a response from a human or another long-running task like a training pipeline. You may also want to incorporate custom implementation of:
 
-- summarization or caching of of tool call results
+- summarization or caching of tool call results
 - LLM as judge on structured output
 - context window compaction or other [memory management](https://github.com/humanlayer/12-factor-agents/blob/main/content/appendix-14-everything-is-context-engineering.md)
 - logging, tracing, and metrics
