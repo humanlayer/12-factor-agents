@@ -140,9 +140,9 @@ In building HumanLayer, I've talked to at least 100 SaaS builders (mostly techni
 2. Product design, UX mapping, what problems to solve
 3. Want to move fast, so grab $FRAMEWORK and *get to building*
 4. Get to 70-80% quality bar 
-5a. Realize that 80% isn't good enough for most customer-facing features
-5b. Realize that getting past 80% requires reverse-engineering the framework, prompts, flow, etc
-6. Start over from scratch
+5. Realize that 80% isn't good enough for most customer-facing features
+6. Realize that getting past 80% requires reverse-engineering the framework, prompts, flow, etc
+7. Start over from scratch
 
 <details>
 <summary>Random Disclaimers</summary>
