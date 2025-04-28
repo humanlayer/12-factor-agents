@@ -237,7 +237,7 @@ After digging through hundreds of AI libriaries and working with dozens of found
   - [Airflow](https://airflow.apache.org/)
   - [Prefect](https://www.prefect.io/)
   - [Dagster](https://dagster.io/)
-  - [Inngest](https://www.inngest.dev/)
+  - [Inngest](https://www.inngest.com/)
   - [Windmill](https://www.windmill.dev/)
   - [The AI Agent Index (MIT)](https://aiagentindex.mit.edu/)
   - [NotebookLM on Finding Model Capability Boundaries](https://open.substack.com/pub/swyx/p/notebooklm?selection=08e1187c-cfee-4c63-93c9-71216640a5f8)
