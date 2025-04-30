@@ -104,7 +104,7 @@ And let the LLM make decisions in real time to figure out the path
 
 ![026-agent-dag-lines](https://github.com/humanlayer/12-factor-agents/blob/main/img/026-agent-dag-lines.png)
 
-The promise here is that you write less software, you just give the LLM the "edges" of the graph and let it figure out the nodes. You can recover from errors, you can write less code, and you may find that LLMs find novel solutions to problems.
+The promise here is that you write less software, you just give the LLM the "nodes" of the graph and let it figure out the edges. You can recover from errors, you can write less code, and you may find that LLMs find novel solutions to problems.
 
 
 ### Agents as loops
