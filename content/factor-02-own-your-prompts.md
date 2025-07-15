@@ -6,6 +6,10 @@ Don't outsource your prompt engineering to a framework.
 
 ![120-own-your-prompts](https://github.com/humanlayer/12-factor-agents/blob/main/img/120-own-your-prompts.png)
 
+By the way, [this is far from novel advice:](https://hamel.dev/blog/posts/prompt/)
+
+![image](https://github.com/user-attachments/assets/575bab37-0f96-49fb-9ce3-9a883cdd420b)
+
 Some frameworks provide a "black box" approach like this:
 
 ```python

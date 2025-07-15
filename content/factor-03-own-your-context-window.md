@@ -19,7 +19,20 @@ Creating great context means:
 - Any past messages or events from related but separate histories/conversations (Memory)
 - Instructions about what sorts of structured data to output
 
-![220-context-engineering](https://github.com/humanlayer/12-factor-agents/blob/main/img/220-context-engineering.png)
+![image](https://github.com/user-attachments/assets/0f1f193f-8e94-4044-a276-576bd7764fd0)
+
+### Don't take it from me
+
+About 2 months after 12-factor agents was published, context engineering started to become a pretty popular term.
+
+<a href="https://x.com/karpathy/status/1937902205765607626"><img width="378" alt="Screenshot 2025-06-25 at 4 11 45 PM" src="https://github.com/user-attachments/assets/97e6e667-c35f-4855-8233-af40f05d6bce" /></a> <a href="https://x.com/tobi/status/1935533422589399127"><img width="378" alt="Screenshot 2025-06-25 at 4 12 59 PM" src="https://github.com/user-attachments/assets/7e6f5738-0d38-4910-82d1-7f5785b82b99" /></a>
+
+There's also a quite good [Context Engineering Cheat Sheet](https://x.com/lenadroid/status/1943685060785524824) from [@lenadroid](https://x.com/lenadroid) from July 2025.
+
+<a href="https://x.com/lenadroid/status/1943685060785524824"><img width="256" alt="image" src="https://github.com/user-attachments/assets/cac88aa3-8faf-440b-9736-cab95a9de477" /></a>
+
+
+### on context engineering
 
 This guide is all about getting as much as possible out of today's models. Notably not mentioned are:
 
@@ -240,5 +253,6 @@ Example - information density - same message, fewer tokens:
 
 
 Recurring theme here: I don't know what's the best approach, but I know you want the flexibility to be able to try EVERYTHING.
+
 
 [← Own Your Prompts](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-02-own-your-prompts.md) | [Tools Are Structured Outputs →](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-04-tools-are-structured-outputs.md)
