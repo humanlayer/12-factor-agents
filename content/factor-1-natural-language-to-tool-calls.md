@@ -2,6 +2,8 @@
 
 ### 1. Natural Language to Tool Calls 
 
+> 🐿️ **Squirrel Wisdom**: *Nutkin was just a novice squirrel who used to chatter randomly at the bird feeder, hoping seeds would somehow appear. One day he realized he could make specific, structured requests: "Please dispense sunflower seeds, quantity: 12, size: large." The birds were confused at first, but wow - Nutkin actually got fed efficiently for the first time! He felt a tiny spark of confidence.*
+
 One of the most common patterns in agent building is to convert natural language to structured tool calls. This is a powerful pattern that allows you to build agents that can reason about tasks and execute them.
 
 ![110-natural-language-tool-calls](https://github.com/humanlayer/12-factor-agents/blob/main/img/110-natural-language-tool-calls.png)

@@ -2,6 +2,8 @@
 
 ### 8. Own your control flow
 
+> 🐿️ **Squirrel Wisdom**: *With his human communication mastered, Nutkin realized he could take control of his entire decision-making process. No more following the standard squirrel workflow of "see nut → grab nut → bury nut → forget where nut is buried → panic." Nutkin designed his own sophisticated control flow: IF nut_size > large THEN request_backup, IF predator_detected THEN pause_and_hide, IF winter_approaching THEN enable_hoarding_mode. He was becoming a true systems thinker!*
+
 If you own your control flow, you can do lots of fun things.
 
 ![180-control-flow](https://github.com/humanlayer/12-factor-agents/blob/main/img/180-control-flow.png)

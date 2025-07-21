@@ -2,6 +2,8 @@
 
 ### 3. Own your context window
 
+> 🐿️ **Squirrel Wisdom**: *After learning to write his own instructions, Nutkin faced a new challenge: where to store all his important information. He tried the neighborhood's standard "one nut per hole" storage format but ran out of space by October. That's when Nutkin had a breakthrough - he could design his own custom storage system with density optimization and seasonal indexing! His confidence was really building now.*
+
 You don't necessarily need to use standard message-based formats for conveying context to an LLM.
 
 > #### At any given point, your input to an LLM in an agent is "here's what's happened so far, what's the next step"

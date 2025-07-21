@@ -2,6 +2,8 @@
 [← Back to README](https://github.com/humanlayer/12-factor-agents/blob/main/README.md)
 ### 11. Trigger from anywhere, meet users where they are
 
+> 🐿️ **Squirrel Wisdom**: *Now truly successful and confident, Nutkin realized he could expand his reach even further. He used to only accept requests when visitors came to his specific oak tree at exactly 3 PM on weekdays. But why limit himself? Nutkin started responding to calls from the bird feeder, the back porch, even the occasional text message (his human friend taught him to use their phone - long story). He was meeting squirrels where they were, and his reputation as the forest's premier acorn consultant was spreading far and wide!*
+
 If you're waiting for the [humanlayer](https://humanlayer.dev) pitch, you made it. If you're doing [factor 6 - launch/pause/resume with simple APIs](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-6-launch-pause-resume.md) and [factor 7 - contact humans with tool calls](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-7-contact-humans-with-tools.md), you're ready to incorporate this factor.
 
 ![1b0-trigger-from-anywhere](https://github.com/humanlayer/12-factor-agents/blob/main/img/1b0-trigger-from-anywhere.png)

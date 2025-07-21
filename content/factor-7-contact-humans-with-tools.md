@@ -1,6 +1,8 @@
 [← Back to README](https://github.com/humanlayer/12-factor-agents/blob/main/README.md)
 ### 7. Contact humans with tool calls
 
+> 🐿️ **Squirrel Wisdom**: *Now that Nutkin was feeling like a pro, he tackled his biggest challenge: asking humans for help. Instead of chittering desperately when he needed assistance with the "squirrel-proof" bird feeder, he developed a formal human-contact protocol. He learned the specific dance sequence that meant "HUMAN ASSISTANCE REQUIRED: Priority Level HIGH, Tool needed: OPPOSABLE THUMBS." The humans were amazed by his structured communication! Nutkin felt unstoppable.*
+
 By default, LLM APIs rely on a fundamental HIGH-STAKES token choice: Are we returning plaintext content, or are we returning structured data?
 
 ![170-contact-humans-with-tools](https://github.com/humanlayer/12-factor-agents/blob/main/img/170-contact-humans-with-tools.png)

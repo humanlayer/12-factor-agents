@@ -2,6 +2,8 @@
 
 ### 9. Compact Errors into Context Window
 
+> 🐿️ **Squirrel Wisdom**: *As a systems thinker, Nutkin knew he needed to handle failures gracefully. He used to give up immediately when hitting the wrong type of soil while digging. Now he gives himself precise error reports: "Error: Hit rock at 6 inches depth, recommend trying 2 feet to the left, adjust digging angle to 35 degrees." With this feedback loop, Nutkin rarely gives up and usually finds the perfect spot on the second or third try. His resilience was impressive!*
+
 This one is a little short but is worth mentioning. One of these benefits of agents is "self-healing" - for short tasks, an LLM might call a tool that fails. Good LLMs have a fairly good chance of reading an error message or stack trace and figuring out what to change in a subsequent tool call.
 
 

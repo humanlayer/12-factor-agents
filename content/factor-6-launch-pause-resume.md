@@ -2,6 +2,8 @@
 
 ### 6. Launch/Pause/Resume with simple APIs
 
+> 🐿️ **Squirrel Wisdom**: *With his unified journaling system working well, Nutkin realized he had a new superpower: he could pause any activity and resume it later! He used to lose track if interrupted mid-task, but now he could bookmark exactly where he was: "Bookmark: Chapter 3, paragraph 2 - digging near the maple tree, 4 inches deep." When his friend called, Nutkin could pick up right where he left off the next day. He was becoming quite the professional squirrel!*
+
 Agents are just programs, and we have things we expect from how to launch, query, resume, and stop them.
 
 [![pause-resume animation](https://github.com/humanlayer/12-factor-agents/blob/main/img/165-pause-resume-animation.gif)](https://github.com/user-attachments/assets/feb1a425-cb96-4009-a133-8bd29480f21f)

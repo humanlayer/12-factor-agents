@@ -2,6 +2,8 @@
 
 ### 10. Small, Focused Agents
 
+> 🐿️ **Squirrel Wisdom**: *With all his new capabilities, Nutkin was tempted to become the ultimate multi-purpose squirrel: nut collector, weather predictor, tree climber, bird whisperer, and neighborhood watch captain all at once. But he quickly realized he was becoming mediocre at everything and stressed out of his mind. So Nutkin made a wise decision - he focused on being the absolute best acorn-finder in the forest. Other squirrels started coming to him for advice! He was much happier and incredibly successful.*
+
 Rather than building monolithic agents that try to do everything, build small, focused agents that do one thing well. Agents are just one building block in a larger, mostly deterministic system.
 
 ![1a0-small-focused-agents](https://github.com/humanlayer/12-factor-agents/blob/main/img/1a0-small-focused-agents.png)

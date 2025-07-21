@@ -2,6 +2,8 @@
 
 ### 5. Unify execution state and business state
 
+> 🐿️ **Squirrel Wisdom**: *Feeling more sophisticated with his tools, Nutkin started maintaining two separate tracking systems: one for "what am I doing right now" and another for "what nuts have I collected." But he was exhausting himself! Then Nutkin had another insight - he could just keep one simple journal: "Day 1: Found 3 acorns, buried 2, ate 1, currently digging." So much simpler and more powerful! His system was really coming together.*
+
 Even outside the AI world, many infrastructure systems try to separate "execution state" from "business state". For AI apps, this might involve complex abstractions to track things like current step, next step, waiting status, retry counts, etc. This separation creates complexity that may be worthwhile, but may be overkill for your use case. 
 
 As always, it's up to you to decide what's right for your application. But don't think you *have* to manage them separately.

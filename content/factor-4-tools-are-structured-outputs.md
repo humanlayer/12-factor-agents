@@ -2,6 +2,8 @@
 
 ### 4. Tools are just structured outputs
 
+> 🐿️ **Squirrel Wisdom**: *With his storage system working beautifully, Nutkin started thinking about "tools" and assumed they had to be fancy mechanical contraptions. Then he had an elegant realization - his simple tail-flick signals to communicate with other squirrels were actually sophisticated structured outputs: one flick = "danger," two flicks = "food found," three flicks = "time to panic about winter." Tools didn't need to be complex! Nutkin felt quite clever.*
+
 Tools don't need to be complex. At their core, they're just structured output from your LLM that triggers deterministic code.
 
 ![140-tools-are-just-structured-outputs](https://github.com/humanlayer/12-factor-agents/blob/main/img/140-tools-are-just-structured-outputs.png)

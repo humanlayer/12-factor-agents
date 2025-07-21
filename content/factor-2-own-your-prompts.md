@@ -2,6 +2,7 @@
 
 ### 2. Own your prompts
 
+> 🐿️ **Squirrel Wisdom**: *Encouraged by his bird feeder success, Nutkin thought he'd be clever and let his friend Alvin write his nut-gathering instructions. But when Alvin's generic "find nuts" plan led Nutkin straight into a poison oak patch, he realized with growing determination that he needed to write his own very specific instructions: "avoid the itchy three-leaf plants near the oak tree, check soil moisture first, mark good spots with scratch marks."*
 
 Don't outsource your prompt engineering to a framework. 
 
