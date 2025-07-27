@@ -9,15 +9,20 @@ You don't necessarily need to use standard message-based formats for conveying c
 <!-- todo syntax highlighting -->
 <!-- ![130-own-your-context-building](https://github.com/humanlayer/12-factor-agents/blob/main/img/130-own-your-context-building.png) -->
 
-Everything is context engineering. [LLMs are stateless functions](https://thedataexchange.media/baml-revolution-in-ai-engineering/) that turn inputs into outputs. To get the best outputs, you need to give them the best inputs.
+Everything is context engineering. [LLMs are stateless functions](https://thedataexchange.media/baml-revolution-in-ai-engineering/) that turn inputs into outputs. This can be seen as increasing the specialization of your model instance to perform better in your specific use case.
+
+While large language models (LLMs) represent general intelligence, each instance must operate within the rules of your system in order to significantly increase the likelihood of success, despite their inherently non-deterministic nature. This also means the model should be aware of any unique features of your system. These nudges help guide the model toward producing high-quality, specialized results.
+
+Evaluation tests help determine whether the agent is aligned with the system's rules and performs well enough to meet the efficiency threshold.
 
 Creating great context means:
 
 - The prompt and instructions you give to the model
 - Any documents or external data you retrieve (e.g. RAG)
-- Any past state, tool calls, results, or other history 
+- Any past state, tool calls, results, or other history
 - Any past messages or events from related but separate histories/conversations (Memory)
-- Instructions about what sorts of structured data to output
+- Instructions about what sorts of structured data to output (Schema)
+- Evaluation tests (evals) to establish efficiency benchmarks (Alignment testing, Regression checks)
 
 ![image](https://github.com/user-attachments/assets/0f1f193f-8e94-4044-a276-576bd7764fd0)
 
