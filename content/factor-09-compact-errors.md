@@ -61,13 +61,13 @@ while True:
 ```
 Hitting some consecutive-error-threshold might be a great place to [escalate to a human](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-07-contact-humans-with-tools.md), whether by model decision or via deterministic takeover of the control flow.
 
-[![195-factor-09-errors](https://github.com/humanlayer/12-factor-agents/blob/main/img/195-factor-09-errors.gif)](https://github.com/user-attachments/assets/cd7ed814-8309-4baf-81a5-9502f91d4043)
+[![195-factor-09-errors](https://github.com/humanlayer/12-factor-agents/blob/main/img/195-factor-9-errors.gif)](https://github.com/user-attachments/assets/cd7ed814-8309-4baf-81a5-9502f91d4043)
 
 
 <details>
-<summary>[GIF Version](https://github.com/humanlayer/12-factor-agents/blob/main/img/195-factor-09-errors.gif)</summary>
+<summary>[GIF Version](https://github.com/humanlayer/12-factor-agents/blob/main/img/195-factor-9-errors.gif)</summary>
 
-![195-factor-09-errors](https://github.com/humanlayer/12-factor-agents/blob/main/img/195-factor-09-errors.gif)
+![195-factor-09-errors](https://github.com/humanlayer/12-factor-agents/blob/main/img/195-factor-9-errors.gif)
 
 </details>
 
